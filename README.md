@@ -9,6 +9,7 @@ The user scores the melodies (*Which is really a tedious process*) and save them
 - [ ] I don't know what pitch corresponds to conventional notes. For example 70 -> C3 or something.
 - [ ] Current algorithm uses duration and number of notes to be played. Change them to bars and notes per bar
 - [ ] Play metronome sound on top of the melody playing.
+- [ ] If population size is odd, while generating the new generation, it makes the new generation size -> population size - 1 
 - [ ] Create multiple MIDIs and put them together to make a AI-Music.
 
 Inspired by [this video](https://youtu.be/aOsET8KapQQ?si=YWnSoHEe_7Fyb7yq)

@@ -51,7 +51,7 @@ class GeneticAlgorithm:
     def mutation(self, genome): 
         genome_copy = genome.copy()
         for _ in range(self.mutations_per_genome):
-            if random() > self.mutation_probability:
+            if random() <= self.mutation_probability:
                 index = randint(0,len(genome)-1)
                 mutation_multiplier = choice([-1,1])
                 mutation_amount = 1
